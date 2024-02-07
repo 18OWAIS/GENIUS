@@ -9,13 +9,14 @@ const replicate = new Replicate({
   auth: process.env.GENIUS_API_KEY!,
 });
 
-export async function GET(
+export async function POST(
   req: Request
 ) {
   try {
     const { userId } = auth();
     const body = await req.json();
     const { prompt  } = body;
+   
 
     if (!userId) {
       return new NextResponse("Unauthorized", { status: 401 });
