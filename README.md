@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # GENIUS
 Welcome to GENIUS!
-GENIUS is an innovative and interactive application designed to cater to a multitude of your needs. Whether you're seeking answers to coding queries or looking to create captivating media content, GENIUS has you covered.
+GENIUS is an innovative and interactive application designed to cater to a multitude of your needs. Whether you're seeking answers to coding queries or looking to create captivating media content, GENIUS has everything to impress you.
 
 Features:
 1. Code Assistance:
