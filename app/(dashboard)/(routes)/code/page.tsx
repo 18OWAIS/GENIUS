@@ -59,7 +59,7 @@ const CodePage = () => {
       if (error?.response?.status === 403) {
         proModal.onOpen();
       } else {
-        toast.error("Something went wrong.");
+        toast.error("Sorry It was working when there was free token available for owner open ai account now it has been finished you have to buy token.");
       }
     } finally {
       router.refresh();
